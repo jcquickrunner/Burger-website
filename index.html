@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+
+  <title>JC Practice website for Restaurant</title>
+</head>
+
+<body>
+  <header>
+    <div id="carouselcontrols" class="carousel slide " data-ride="carousel">
+      <div id="one" class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="images/carousel1.jpg" alt="FirstSlide" />
+          <div id="hello-world" class="carousel-caption">
+            <h3>Made to order</h3>
+            <p class="hi">Using only the finest ingredients</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="images/carousel2.jpg" alt="secondSlide" />
+          <div class="carousel-caption">
+            <h3>Over 50 types on our menu</h3>
+            <P>Or build your own!</P>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" role="button" data-slide="prev" href="#carouselcontrols">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" role="button" data-slide="next" href="#carouselcontrols">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a id="hiii" class="navbar-brand" href="">Gourmet Burgers by JC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- makes it so that this button collapses the following divs contents -->
+      <!-- navbar collapse id on the button class makes it target this div with the matchin id of navbar collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link href=">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Locations</a>
+          </li>
+        </ul>
+        <form action="">
+          <input />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!-- bootstrap uses classes for their divs must label container exactly as shown below -->
+  <!-- fluid spans full width of page -->
+  <!-- col has to do with device size -->
+  <div id="hello" class="container text-center py-5">
+    <!-- py adds padding -->
+    <div class="row">
+      <div class="col-md-4  ">
+        <img class="rounded-circle" src="images/open.jpg" alt="restaurants image" />
+        <h2>Over 50 restaurants</h2>
+        <p>Treat yourself next time you are in the area!</p>
+        <p>
+          <a class="btn btn-secondary" href="" role="button">View details &raquo;</a>
+        </p>
+        <!-- <button type="button" class="btn btn-secondary" >Secondary</button> -->
+      </div>
+      <div class="col-md-4 ">
+        <img class="rounded-circle" src="images/challenge.jpg" alt="eating challenge" />
+        <h2>Fancy a challenge?</h2>
+        <p>Why not try one of our famous burger eating challenges!</p>
+        <p>
+          <a class="btn btn-secondary" href="" role="button">View details &raquo;</a>
+        </p>
+      </div>
+      <div class="col-md-4 ">
+        <img class="rounded-circle" src="images/sign.jpg" alt="reputation" />
+        <h2>Established 2003</h2>
+        <p>Our reputation does not lie, Over 15 Years of High quality</p>
+        <p>
+          <a class="btn btn-secondary" href="" role="button">View details &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark">
+    <div class="row text-center">
+      <!-- puts these two in a row -->
+      <div class="col-md-7 text-light font-italic">
+        <p>Sign up for exclusive offers...</p>
+      </div>
+      <div class="col-md-5">
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal">Sign up here!</button>
+        <!-- this button targets the modal -->
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <!-- modal pop up window -->
+  <div id="modal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sign up for exclusive offers!</h5>
+
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-group">
+              <label for="nameInput">Your name</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <footer class="container bg-light py-4">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2019 Gourmet Burgers &middot;
+      <a href="">Home</a> &middot;
+      <a href="">Locations</a>
+
+
+    </p>
+
+  </footer>
+  <!-- # means homepage when used inside an href -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  
+</body>
+
+</html>

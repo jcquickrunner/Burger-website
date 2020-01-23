@@ -1,0 +1,49 @@
+.col-md-4>img {
+    /* this img selects all images that follow with the greater than  */
+    /* so apparently bootstrap doesnt go well with flex in this case */
+    width: 140px;
+    height: 140px;
+}
+
+#hello {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 1.3em;
+    font-weight: 300;
+
+
+}
+
+header {
+    font-family: 'Mountains of Christmas', cursive;
+    size: 1.5em;
+    font-weight: 500;
+}
+
+.hi {
+    font-family: 'Mountains of Christmas', cursive;
+    size: 1.5em;
+    font-weight: 200;
+}
+
+#hiii {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#one {
+    font-size: 1.0em;
+}
+
+header {
+    font-size: 1.0em;
+}
+
+#hello-world {
+    size: 1.2em;
+}
+
+/* you can add both id and classes to target in wide areas or just certain items */
